@@ -1,0 +1,9 @@
+<template>
+  <main>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </main>
+</template>
