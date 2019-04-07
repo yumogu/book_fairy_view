@@ -29,7 +29,7 @@ export default {
   },
   methods: {
     changeFn (v) {
-       v === 1 ?this.type =  2 : this.type = 1
+      v === 1 ? this.type = 2 : this.type = 1
     }
   }
 }
