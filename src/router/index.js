@@ -28,6 +28,10 @@ export default new Router({
       path: '/my/readRecord',
       name: 'readRecord',
       component: () => import(/* webpackChunkName: "my" */ '@/view/my/readRecord')
+    }, {
+      path: '/home',
+      name: 'home',
+      component: () => import(/* webpackChunkName: "home" */ '@/view/home')
     }
   ]
 })

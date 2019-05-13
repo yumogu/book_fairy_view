@@ -68,6 +68,7 @@ export default {
   font-weight: 600;
   color: rgba(247,247,247,1);
   line-height: 48px;
+  text-align: center;
 }
 .regist {
   position: absolute;
