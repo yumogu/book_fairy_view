@@ -24,6 +24,10 @@ export default new Router({
       path: '/my/aboutUs',
       name: 'aboutUs',
       component: () => import(/* webpackChunkName: "my" */ '@/view/my/aboutUs')
+    }, {
+      path: '/my/readRecord',
+      name: 'readRecord',
+      component: () => import(/* webpackChunkName: "my" */ '@/view/my/readRecord')
     }
   ]
 })

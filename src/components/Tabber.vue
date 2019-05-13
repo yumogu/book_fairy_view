@@ -2,13 +2,13 @@
 <div>
   <tabbar class="book_tabber">
     <tabbar-item>
-      <img slot="icon" @click="selectTabber('homeIcon')"  :src="homeIcon">
+      <img class="home" slot="icon" @click="selectTabber('homeIcon')"  :src="homeIcon">
     </tabbar-item>
     <tabbar-item>
-      <img slot="icon" @click="selectTabber('tagIcon')" :src="tagIcon">
+      <img class="tag" slot="icon" @click="selectTabber('tagIcon')" :src="tagIcon">
     </tabbar-item>
     <tabbar-item>
-      <img slot="icon" @click="selectTabber('myIcon')" :src="myIcon">
+      <img class="my" slot="icon" @click="selectTabber('myIcon')" :src="myIcon">
     </tabbar-item>
   </tabbar>
 </div>
@@ -57,10 +57,26 @@ body {
 }
 .book_tabber.weui-tabbar {
   background-color: #ffffff;
-  > a > .weui-tabbar__icon > img {
-    margin-top: 13px;
-    width:23px;
-    height:19px;
+  > a > .weui-tabbar__icon {
+    .home {
+      width:23px;
+      height:19px;
+    }
+    .tag {
+      width:19px;
+      height:19px;
+    }
+    .my {
+      width:19px;
+      height:19px;
+    }
+  }
+}
+.book_tabber.weui-tabbar >.weui-tabbar__item {
+  padding: 14px 0 5px 0;
+
+  >.weui-tabbar__icon {
+
   }
 }
 </style>

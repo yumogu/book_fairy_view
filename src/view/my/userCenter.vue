@@ -42,16 +42,23 @@ export default {
   }
 }
 .my-head-img.weui-cell, .my-sex.weui-cell {
-  padding: 0 30px;
   .vux-cell-primary > p > .vux-label {
     text-align: left;
     width: 100%;
   }
 }
+.my-head-img.weui-cell {
+  padding: 5px 30px;
+}
+.my-sex.weui-cell {
+  padding: 20px 30px;
+}
 .my-head-img.weui-cell,.weui-cell__ft {
   img {
     width: 60px;
     height: 60px;
+    vertical-align: middle;
+    display: block;
   }
 }
 .my-sex.weui-cell:before {
@@ -105,4 +112,3 @@ export default {
   margin: 0 auto;
 }
 </style>
-

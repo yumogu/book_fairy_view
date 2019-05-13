@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import { XInput, Group, Cell,XHeader } from 'vux'
+import { XInput, Group, Cell, XHeader } from 'vux'
 
 Vue.component('x-header', XHeader)
 Vue.component('cell', Cell)
